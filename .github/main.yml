@@ -16,5 +16,3 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "aj-pizza-management-app" # Must be unique in Heroku
           heroku_email: "aj8120@gmail.com"
-          appdir: "backend"
-          healthcheck: "https://aj-pizza-management-app.herokuapp.com/health"

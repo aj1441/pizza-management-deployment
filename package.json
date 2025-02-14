@@ -1,0 +1,31 @@
+{
+  "name": "pizza-management-deployment",
+  "version": "1.0.0",
+  "description": "A full-stack application for managing pizzas and their toppings, allowing users to perform CRUD operations on both entities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend && node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aj1441/pizza-management-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aj1441/pizza-management-deployment/issues"
+  },
+  "homepage": "https://github.com/aj1441/pizza-management-deployment#readme"
+}
